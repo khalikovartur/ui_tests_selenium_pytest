@@ -42,10 +42,11 @@ class PagePicture(WebPage):
     #The first picture on the pictures table
     first_picture = WebElement(xpath='/html/body/div[3]/div[2]/div[1]/div[1]/div/div[1]/div/a/img')
    
-    
+    #The first picture in a new frame on the page middle
     first_picture_inframe = WebElement(xpath='/html/body/div[13]/div[2]/div/div/div/div[3]/div/div[2]/div[1]/div[3]/div/div/img')
 
-    
+    #The button to next picture in a new frame on the page middle
     button_to_next_picture = WebElement(css_selector='div.CircleButton:nth-child(4)>i')
     
+    #The button to the previous picture in a new frame on the page middle
     button_to_previous_picture = WebElement(css_selector='.CircleButton_type_prev > i')

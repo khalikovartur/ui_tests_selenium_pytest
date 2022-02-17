@@ -59,9 +59,7 @@ class WebPage:
     def switch_to_iframe(self, iframe):
         """ Switch to iframe by it's name. """
         self._web_driver.switch_to.frame(iframe)
-        
-    
-        
+            
     def switch_to_window(self, window):
         """ Switch to window by 'window_handles' method."""
         self._web_driver.switch_to.window(window)
